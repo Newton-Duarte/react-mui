@@ -12,14 +12,15 @@
 // import { MuiAccordion } from './components/MuiAccordion';
 // import { MuiImageList } from './components/MuiImageList';
 // import { MuiLink } from './components/MuiLink';
+// import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+// import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+// import { MuiDrawer } from './components/MuiDrawer';
+// import { MuiNavbar } from './components/MuiNavbar';
+// import { MuiSpeedDial } from './components/MuiSpeedDial';
+// import { MuiAvatar } from './components/MuiAvatar';
 
 import './App.css';
-import { MuiAvatar } from './components/MuiAvatar';
-import { MuiBottomNavigation } from './components/MuiBottomNavigation';
-import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
-import { MuiDrawer } from './components/MuiDrawer';
-import { MuiNavbar } from './components/MuiNavbar';
-import { MuiSpeedDial } from './components/MuiSpeedDial';
+import { MuiBadge } from './components/MuiBadge';
 
 function App() {
   return (
@@ -43,7 +44,8 @@ function App() {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
-      <MuiAvatar />
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
   );
 }
