@@ -2,8 +2,9 @@ import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
 import './App.css';
+import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiTabs } from './components/MuiTabs';
-import { MuiTimeline } from './components/MuiTimeline';
+// import { MuiTimeline } from './components/MuiTimeline';
 // import { MuiTypography } from './components/MuiTypography';
 // import { MuiButton } from './components/MuiButton';
 // import { MuiTextField } from './components/MuiTextField';
@@ -75,7 +76,8 @@ function App() {
         {/* <MuiLoadingButton /> */}
         {/* <MuiPickers /> */}
         {/* <MuiTabs /> */}
-        <MuiTimeline />
+        {/* <MuiTimeline /> */}
+        <MuiMasonry />
       </div>
     </LocalizationProvider>
   );
