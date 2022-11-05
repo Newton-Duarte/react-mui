@@ -2,7 +2,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 
 import './App.css';
-import { MuiMasonry } from './components/MuiMasonry';
+// import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiTabs } from './components/MuiTabs';
 // import { MuiTimeline } from './components/MuiTimeline';
 // import { MuiTypography } from './components/MuiTypography';
@@ -37,7 +37,7 @@ import { MuiMasonry } from './components/MuiMasonry';
 // import { MuiSkeleton } from './components/MuiSkeleton';
 // import { MuiLoadingButton } from './components/MuiLoadingButton';
 // import { MuiPickers } from './components/MuiPickers';
-
+import { MuiResponsiveness } from './components/MuiResponsiveness';
 
 function App() {
   return (
@@ -77,7 +77,8 @@ function App() {
         {/* <MuiPickers /> */}
         {/* <MuiTabs /> */}
         {/* <MuiTimeline /> */}
-        <MuiMasonry />
+        {/* <MuiMasonry /> */}
+        <MuiResponsiveness />
       </div>
     </LocalizationProvider>
   );
